@@ -97,14 +97,14 @@ private:
     bNonPenetrationConstraint   = GetNextParameterBool(); 
 
 
-    BallWithinReceivingRangeSq = BallWithinReceivingRange * BallWithinReceivingRange;
-    KeeperInBallRangeSq      = KeeperInBallRange * KeeperInBallRange;
-    PlayerInTargetRangeSq    = PlayerInTargetRange * PlayerInTargetRange;   
-    PlayerKickingDistance   += BallSize;
-    PlayerKickingDistanceSq  = PlayerKickingDistance * PlayerKickingDistance;
-    PlayerComfortZoneSq      = PlayerComfortZone * PlayerComfortZone;
-    GoalKeeperInterceptRangeSq     = GoalKeeperInterceptRange * GoalKeeperInterceptRange;
-    WithinRangeOfSupportSpotSq = WithinRangeOfSupportSpot * WithinRangeOfSupportSpot;
+    BallWithinReceivingRangeSq  = BallWithinReceivingRange * BallWithinReceivingRange;
+    KeeperInBallRangeSq         = KeeperInBallRange * KeeperInBallRange;
+    PlayerInTargetRangeSq       = PlayerInTargetRange * PlayerInTargetRange;   
+    PlayerKickingDistance      += BallSize;
+    PlayerKickingDistanceSq     = PlayerKickingDistance * PlayerKickingDistance;
+    PlayerComfortZoneSq         = PlayerComfortZone * PlayerComfortZone;
+    GoalKeeperInterceptRangeSq  = GoalKeeperInterceptRange * GoalKeeperInterceptRange;
+    WithinRangeOfSupportSpotSq  = WithinRangeOfSupportSpot * WithinRangeOfSupportSpot;
   }
   
 public:
